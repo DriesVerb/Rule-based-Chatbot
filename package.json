@@ -1,0 +1,16 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Making a website for myself to promote myself by myself.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dries Verboven",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1"
+  }
+}
