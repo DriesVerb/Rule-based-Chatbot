@@ -1,0 +1,20 @@
+.container {
+  &__outside {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(159, 169, 175);
+
+    background: linear-gradient(
+      90deg,
+      rgba(159, 169, 175, 1) 0%,
+      rgba(185, 224, 233, 1) 45%,
+      rgba(180, 172, 161, 1) 72%,
+      rgba(163, 249, 238, 1) 100%
+    );
+  }
+
+  &__inside {
+    background-color: $main-white;
+    padding: 2rem;
+  }
+}

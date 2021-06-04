@@ -92,10 +92,6 @@ video {
   vertical-align: baseline;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -131,4 +127,17 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+// user-defined
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

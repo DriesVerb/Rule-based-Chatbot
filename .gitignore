@@ -1,7 +1,9 @@
 /node_modules
 /config
+.env
 package-lock.json
 /client/package-lock.json
+
 
 
 # dependencies

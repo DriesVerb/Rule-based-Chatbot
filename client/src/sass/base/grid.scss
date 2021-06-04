@@ -1,0 +1,22 @@
+.container {
+  &__outside {
+    display: grid;
+    grid-template-rows: 7vh 7vh 1fr 5vh 10vh;
+    grid-template-columns: 20vh 1fr 20vh;
+  }
+
+  &__inside {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+}
+
+.navbar {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.footer {
+  grid-column: 2/3;
+  grid-row: 4/ 5;
+}

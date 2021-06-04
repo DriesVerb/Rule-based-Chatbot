@@ -1,3 +1,7 @@
 import { combineReducers } from "redux";
 
-export default combineReducers({});
+import botReducer from "./botReducer";
+
+export default combineReducers({
+  botReducer,
+});

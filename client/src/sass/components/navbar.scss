@@ -1,0 +1,18 @@
+.navbar {
+  background-color: $main-d-blue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: flex;
+    font-size: 1rem;
+  }
+
+  &__link {
+    color: $main-white;
+    padding: 1rem;
+  }
+}

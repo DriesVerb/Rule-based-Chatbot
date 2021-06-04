@@ -1,0 +1,11 @@
+.footer {
+  background-color: $main-l-blue;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__section {
+    padding: 1rem;
+  }
+}
